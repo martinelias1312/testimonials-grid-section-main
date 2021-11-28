@@ -15,13 +15,61 @@ html {
 
 *, *:before, *:after {
 	box-sizing: inherit;
+    padding: 0;
+    margin: 0;
 }
 
 body {
     font-size: 13px;
     font-family: 'Barlow Semi Condensed', sans-serif;
+    background: var(--Light-grayish-blue);
 }
 
-/* Footer signature */
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+/* -- Mobile First 375px -- */
+@media screen and ( max-width: 375px ) {
+
+    /* -- Main + testimonials grid -- */
+    main {
+        margin: 4em 2em;
+    }
+
+    #testimonials-grid {
+        display: grid;
+        gap: 2em;
+    }
+
+    /* Testimonial 1 by 1 */
+    #daniel {
+        background: url(/assets/img/bg-pattern-quotation.svg)no-repeat right top var(--Moderate-violet);
+    }
+
+    #jonathan {
+        background: var(--Very-dark-grayish-blue);
+    }
+
+    #jeanette {
+        background: var(--White);
+    }
+
+    #patrick {
+        background: var(--Very-dark-blackish-blue);
+    }
+
+    #kira {
+        background: var(--White);
+    }
+
+    .testimonial {
+        border-radius: 1em;
+        padding: 2.5em;
+    }
+
+    .figure-image {
+        border-radius: 50%;
+    }
+
+    /* Footer signature */
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+}
