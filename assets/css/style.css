@@ -41,7 +41,7 @@ body {
 
     /* Testimonial 1 by 1 */
     #daniel {
-        background: url(/assets/img/bg-pattern-quotation.svg)no-repeat right top var(--Moderate-violet);
+        background: url(/assets/img/bg-pattern-quotation.svg)no-repeat right 10% top var(--Moderate-violet);
     }
 
     #jonathan {
@@ -61,7 +61,7 @@ body {
     }
 
     .testimonial {
-        border-radius: 1em;
+        border-radius: 0.7em;
         padding: 2.5em;
     }
 
@@ -71,6 +71,11 @@ body {
 
     .name, .review {
         color: var(--White);
+    }
+
+    .review {
+        font-weight: 600;
+        font-size: 1.5em;
     }
 
     .verified, .quote {
