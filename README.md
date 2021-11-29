@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/testimonial-page-with-good-grid-practice-F8KgBFbX7](https://www.frontendmentor.io/solutions/testimonial-page-with-good-grid-practice-F8KgBFbX7)
+- Live Site URL: [https://testimonials-grid-section-main-snowy.vercel.app/](https://testimonials-grid-section-main-snowy.vercel.app/)
 
 ## My process
 
